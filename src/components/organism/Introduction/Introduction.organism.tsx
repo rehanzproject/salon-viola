@@ -2,13 +2,13 @@ import image from '../../../assets/pictt.png'
 import Container from "react-bootstrap/Container";
 function Introduction() {
   return (
-    <Container className="d-flex align-items-center justify-content-center flex-column flex-lg-row gap-5 pt-4">
+    <Container className="d-flex align-items-center justify-content-center flex-column flex-lg-row pt-4">
       <img
         src={image}
         className="img-fluid w-50 h-auto mb-3 mb-lg-0"
         alt="Spa"
       />
-      <div>
+      <div className='p-5'>
         <h4>We Provide </h4>
         <h2>Welcome to Spa</h2>
         <p>

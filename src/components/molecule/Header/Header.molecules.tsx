@@ -5,13 +5,13 @@ import EmailICon from "../../atom/Icons/EmailIcon";
 
 function Header() {
   return (
-    <Navbar className="bg-body-tertiary d-flex justify-content-start fs-5 ">
+    <Navbar className="bg-body-tertiary d-flex">
       <Container>
-        <Navbar.Brand className="d-flex gap-2 fs-6">
+        <Navbar.Brand className="d-flex gap-2">
           <EmailICon />{" "}
-          <Navbar.Brand href="#home" className="fs-6 border-end border-2 px-2">rehanmaul111@gmail.com </Navbar.Brand>
+          <Navbar.Brand href="#home" className="fs-6 fw-lighter border-end border-2 px-1">rehanmaul111@gmail.com</Navbar.Brand>
           <CallIcon />
-          <Navbar.Brand href="#nomer" className="fs-6">+62 83895104256</Navbar.Brand>
+          <Navbar.Brand href="#nomer" className="fs-6 fw-lighter">+62 83895104256</Navbar.Brand>
         </Navbar.Brand>
       </Container>
     </Navbar>

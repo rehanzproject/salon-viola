@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 function OurSpecial() {
   return (
-    <Container fluid className="p-5 bg-body-tertiary ">
+    <Container fluid className="p-5 bg-body-tertiary">
       <h1 className="text-warning">Our Special Offer</h1>
       <Row>
         <Col md={6}>
@@ -18,7 +18,7 @@ function OurSpecial() {
             unchanged. It was popularised in the with the Lorem Ipsum is simply
             dummy text of the printing and essentially unchanged.
           </p>
-          <img src={card} alt="" className="w-75" />
+          <img src={card} alt="" className="img-fluid" />
         </Col>
         <Col md={6} className="d-flex justify-content-center align-items-center">
           <img src={cardpict} alt="" className="img-fluid" />
