@@ -7,7 +7,7 @@ function Header() {
   return (
     <Navbar className="bg-body-tertiary d-flex">
       <Container>
-        <Navbar.Brand className="d-flex gap-2">
+        <Navbar.Brand className="d-flex">
           <EmailICon />{" "}
           <Navbar.Brand href="#home" className="fs-6 fw-lighter border-end border-2 px-1">rehanmaul111@gmail.com</Navbar.Brand>
           <CallIcon />
